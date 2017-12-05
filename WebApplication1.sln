@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Services", "1 - Services", "{43670F71-1086-4A53-8094-5BF17C3A809C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Infra", "2 - Infra", "{3AFAFFAB-78BA-42BD-9375-5C11E00AA917}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{060DADB6-DE35-4555-A2AD-87C9A8BF6A45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra.CrossCutting.Auth", "Infra.CrossCutting.Auth\Infra.CrossCutting.Auth.csproj", "{A16F61EB-B4C1-4085-8DFE-13FFAEFD08A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTService", "RESTService\RESTService.csproj", "{08EC7C6D-D86B-4566-8EF0-0C10C8C8A1E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A16F61EB-B4C1-4085-8DFE-13FFAEFD08A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A16F61EB-B4C1-4085-8DFE-13FFAEFD08A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A16F61EB-B4C1-4085-8DFE-13FFAEFD08A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A16F61EB-B4C1-4085-8DFE-13FFAEFD08A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08EC7C6D-D86B-4566-8EF0-0C10C8C8A1E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08EC7C6D-D86B-4566-8EF0-0C10C8C8A1E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08EC7C6D-D86B-4566-8EF0-0C10C8C8A1E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08EC7C6D-D86B-4566-8EF0-0C10C8C8A1E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A16F61EB-B4C1-4085-8DFE-13FFAEFD08A2} = {3AFAFFAB-78BA-42BD-9375-5C11E00AA917}
+		{08EC7C6D-D86B-4566-8EF0-0C10C8C8A1E3} = {43670F71-1086-4A53-8094-5BF17C3A809C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C4F2E73-0935-46A7-8956-E7B4FA5322E9}
+	EndGlobalSection
+EndGlobal
